@@ -1,0 +1,1042 @@
+.footer-img
+{
+  width: 100%;
+  height:fit-content;
+  display: grid;
+  grid-template-columns:28% 14% 14% 14% auto;
+  grid-template-rows:100%;
+  grid-column-gap: 1rem;
+}
+.footer-img-p
+{
+  padding:2rem;
+  font-size: 1.8em;
+font-family: Helvetica;
+color: #354463;
+
+}
+footer div
+{
+  color: #354463;
+}
+footer div h1
+{
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+footer div p
+{
+  font-size: 1rem;
+}
+footer aside
+{
+  color:#354463;
+  font-size: 2em;
+  padding-top: 2rem;
+  padding-left: 1rem;
+
+}
+.subscribe-img
+{
+  margin-top: 0;
+  background-color: #C1F7D5;
+  width:100%;
+  height:34vh;
+  display: grid;
+  grid-template-rows: 50vh;
+  grid-template-columns: 50% 25% 25%;
+
+}
+.subscribe-img h1
+{
+  text-align: left;
+  font: Bold 1.5em/2em Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  line-height: 1.5em;
+}
+.subscribe-img .enter-email
+{
+  width: fit-content;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 100px;
+text-align: center;
+font-size: 1em;
+color: blue;
+padding-top: 1%;
+height: fit-content;
+margin-top: 2rem;
+padding: 1rem;
+}
+.subscribe-img .button
+{
+  margin-top: 2rem;
+background-color: #354463;
+
+}
+.action-img .container
+{
+  padding-top: 1rem;
+
+}
+.event
+{
+  color: #354463;
+  width: fit-content;
+  font-size: 1rem;
+  background: white;
+  padding: 0.3rem;
+}
+.action-img
+{
+  background-color: #354463;
+  color: white;
+}
+.action-img h2
+{
+   width:100%;
+     font-size: 2rem;
+}
+.action-img p
+{
+  margin-top: 3rem;
+width: 100%;
+
+padding-right: 2rem;
+font-size: 0.7rem;
+}
+.action-img img
+{
+  width:50%;
+  height:50vh;
+}
+.earth-day
+{
+  width:100%;
+  height:50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+ .updates-from
+ {
+   /*
+   margin-top: 3rem;
+width: 35rem;
+padding-left: 1rem;
+padding-right: 2rem;
+font-size: 1rem;*/
+width:100%;
+height:50vh;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: nowrap;
+ }
+ .action-img .button
+ {
+   position: absolute;
+   bottom: 0;
+ }
+ .action-img aside
+ {
+   width: 50%;
+   position: relative;
+ }
+#story-read-more
+{
+  margin-left: 45%;
+}
+.story-img
+{
+  margin-bottom: 4rem;
+  display: flex;
+}
+.story-img img
+{
+  width: 50%;
+  margin-top: 3rem;
+  float: right;
+}
+.story-img .story
+{
+  color: white;
+float: left;
+background-color: #354463;
+height: fit-content;
+margin-top: 14rem;
+text-align: center;
+margin-right: 0rem;
+width: 47%;
+opacity: 1;
+
+}
+.story p
+{
+  font-size: 2rem;
+
+    padding-left: 7rem;
+    padding-right: 5rem;
+    /**/
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+.container
+{
+  position: relative;
+}
+.facts
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  position: absolute;
+  right:0;
+  top: 2rem;
+}
+.three-out-four-with-box
+{
+  position: relative;
+  width: 100%;
+    height: fit-content;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+.three-out-four-with-box h1
+{
+  text-align: center;
+  font: Bold 2.5em/1em Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+}
+.three-out-four-with-box p
+{
+  font-size: 1rem;
+  text-align: center;
+}
+.did-you-know
+{
+  position: absolute;
+    margin-top: -1rem;
+    width: fit-content;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.3rem 1.1rem;
+    background: #354463;
+    margin-top: -15px;
+    font-size: 0.8r
+}
+.three-out-four-with-box .twitter-logo
+{
+  right: 7%;
+  position: absolute;
+  bottom: 66%;
+  width: 3%;
+  height: 4%;
+
+}
+ .three-out-four-with-box .fb-logo
+{
+  right: 7%;
+      position: absolute;
+      bottom: 43%;
+      width: 3%;
+      height: 1%;
+}
+.facts-img
+{
+  padding-top: 1rem;
+
+  width:100%;
+  background-image: url("../assets/home/Did you know background.png");
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 1000px;
+/*  padding-top: 1rem;*/
+}
+.climate-change-hunger-issue
+{
+  /*background-image: url("../assets/home/Climate changeIs a hunger issue..png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+*/
+  width: 19%;
+    height: 15vh;
+}
+
+
+body
+{
+  margin: 0px 0px;
+}
+ul
+{
+  list-style: none;
+}
+a
+{
+  color: black;
+  text-decoration: none;
+}
+.container
+{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  /*background-color: red;*/
+}
+.Heading
+{
+  display:flex;
+}
+.heading-nav
+{
+  display: flex;
+  flex-direction: row;
+  width:80%;
+}
+.heading-nav p
+{
+  width:23%;
+}
+.heading ul
+{
+width: auto;
+}
+ .button
+{
+  background-color: #C1F7D5;
+    border-radius: 100px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    height: fit-content;
+    margin: 1rem;
+    width: fit-content;
+}
+.heading-nav ul
+{
+
+  display: flex;
+  flex-direction: row;
+}
+.heading-nav ul li
+{
+  margin-right: 3rem;
+}
+.main-section
+{
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../assets/home/annie-spratt-135307-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main-section .container
+{
+  display: flex;
+  justify-content:space-between;
+
+}
+.stop-climate-change-img
+{
+
+  height: 20vh;
+}
+/*  background-image: url("../assets/home/stopclimatechange.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+*/
+
+.climate-change
+{
+
+  background-color: white;
+  width: 38.85%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+.climate-change p
+{
+  font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: 1rem;
+
+
+}
+.climate-change a
+{
+
+}
+.issue-box
+{
+  position: absolute;
+  margin-top: -1rem;
+  width: fit-content;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.3rem 1.1rem;
+    background: #354463;
+    margin-top: -15px;
+    font-size: 0.8rem;
+}
+.take-action
+{
+  position: absolute;
+  margin-top: -1rem;
+  width: fit-content;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.3rem 1.1rem;
+    background: #354463;
+    margin-top: -1.5rem;
+    font-size: 0.8rem;
+    left:45%
+}
+.nav-links ul
+{
+  padding-left: 0;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+.nav-links a
+{
+  font-size: 2rem;
+}
+.mission-img
+{
+  background-color: #354463;
+}
+.mission-img .what-we-do-button
+{
+  margin-top: 1rem;
+  color: #354463;
+  width: 10%;
+  font-size: 1rem;
+  background: white;
+  padding: 0.3rem;
+}
+.mission-img .container
+{
+  display: flex;
+  flex-direction:column;
+}
+.mission-img .mission-text
+{
+  box-sizing: border-box;
+font-size: 2.8rem;
+color: white;
+margin-top: 1rem;
+}
+.our-works
+{
+  margin-top: 1rem;
+  display: flex;
+}
+.mission-img-section
+{
+/*  background-color: white;
+position: absolute;
+width: 27%;*/
+background-color: white;
+margin-right: 1rem;
+margin-top: 2rem;
+padding-left: 2rem;
+padding-bottom: 1rem;
+}
+.mission-img-section h1
+{
+font-size: 2rem;
+}
+.mission-img-section  p
+{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.mission-section-images
+{
+  /*position: absolute;*/
+    width: 89%;
+    height: 17vh;
+    margin-top:-1rem;
+    /*top: -5%;
+    right: 0%;*/
+
+}
+.mission-img-section
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.tree-planting-img
+{
+  background-image: url("../assets/home/tree-planting.png");
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.education-training-img
+{
+  background-image: url("../assets/home/education-training.png");
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.advocacy-img3
+{
+  background-image: url("../assets/home/advocacy.png");
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.mission-para-link
+{
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+}
+
+
+@media all and (min-width:480px) and (max-width:800px)
+{
+  .action-img p
+  {
+    margin-top: 3rem;
+  width: 100%;
+
+  padding-right: 2rem;
+  font-size: 0.4rem;
+  }
+  .stop-climate-change-img
+  {
+    width: 15rem;
+    height: auto;
+
+  }
+  .footer-img
+  {
+    width: 100%;
+    height:fit-content;
+    display: grid;
+    grid-template-columns:33% 33% auto;
+    grid-template-rows:50% 50%;
+    grid-column-gap: 1rem;
+  }
+  .contact-us
+  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+  }
+  .footer-link
+  {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+  }
+  .folow
+  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+  }
+  .footer-img-p
+  {
+    padding:2rem;
+    font-size: 1.8em;
+  font-family: Helvetica;
+  color: #354463;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:1 ;
+  grid-column-end: 2;
+
+  }
+  footer div
+  {
+    color: #354463;
+  }
+  footer div h1
+  {
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+  footer div p
+  {
+    font-size: 1rem;
+  }
+  footer aside
+  {
+    color:#354463;
+    font-size: 2em;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:3 ;
+    grid-column-end: 4;
+
+  }
+
+  .subscribe-img
+  {
+    margin-top: 0;
+    background-color: #C1F7D5;
+    width:100%;
+    height:34vh;
+    display: grid;
+    grid-template-rows: 20vh 14vh;
+    grid-template-columns: 60% 40%;
+
+  }
+  .subscribe-img h1
+  {
+    text-align: left;
+    font: Bold 1.5em/2em Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    line-height: 1.5em;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:3;
+  }
+  .subscribe-img .enter-email
+  {
+    width: 64%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1em;
+    color: blue;
+    padding-top: 1%;
+    height: fit-content;
+    margin-top: 2rem;
+    padding: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 2rem;
+  }
+  .subscribe-img .button
+  {
+    margin-top: -3rem;
+  background-color: #354463;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end:3;
+
+  }
+  .story-img
+  {
+    flex-direction: column-reverse;
+  }
+  .story-img .story
+  {
+    margin-top: 7rem;
+    width:80%;
+  }
+  .story-img img
+  {
+    width: 83%;
+  }
+  .facts
+  {
+    width:60%;
+
+  }
+  .heading-nav
+  {
+    display: flex;
+    flex-direction: column;
+    width:74%;
+  }
+  .heading-nav ul
+  {
+    padding-left: 0;
+  }
+  .main-section .container
+  {
+    flex-direction: column-reverse;
+  }
+  .climate-change
+  {
+    width: auto;
+    margin-top: 2rem;
+  }
+  .nav-links ul
+  {
+    flex-wrap: wrap;
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;*/
+
+  }
+  .nav-links ul li
+  {
+    width: 50%;
+  }
+  .our-works
+  {
+    flex-direction: column;
+  }
+  .mission-section-images
+  {
+
+    /*position: absolute;*/
+    width: 52%;
+    height: 17vh;
+    /*top: -5%;*/
+  }
+  .mission-img-section h1
+  {
+    padding-right: 1.2rem;
+font-size: 1.5rem;
+padding-top: 1.2rem;
+  }
+  .mission-section-images
+  {
+    margin-top: 0;
+  }
+  .mission-img-section h1
+  {
+    margin-left: 1rem;
+  }
+  .mission-img-section
+  {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mission-img-section p
+  {
+
+
+
+    padding-right: 1rem;
+  }
+  .mission-para-link
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+}
+@media all and (max-width:480px)
+{
+  .stop-climate-change-img
+  {
+    width: 12rem;
+    height: auto;
+  }
+  .footer-img
+  {
+    width: 100%;
+    height:40vh;
+    display: grid;
+    grid-template-columns:50% auto;
+    grid-template-rows:30% 30% 40%;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .contact-us
+  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+  }
+  .footer-link
+  {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+  }
+  .folow
+  {
+    margin-left: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:1 ;
+    grid-column-end: 2;
+  }
+  .footer-img-p
+  {
+    padding:2rem;
+    font-size: 0.8em;
+  font-family: Helvetica;
+  color: #354463;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start:1 ;
+  grid-column-end: 2;
+
+  }
+  footer div
+  {
+    padding-left: 1rem;
+    color: #354463;
+  }
+  footer div h1
+  {
+    padding-top: 0.8rem;
+    font-size: 1rem;
+  }
+  footer div p
+  {
+    font-size: 0.7rem;
+  }
+  footer aside
+  {
+    color:#354463;
+    font-size: 2em;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+
+  }
+
+  .subscribe-img
+  {
+    margin-top: 0;
+    background-color: #C1F7D5;
+    width:100%;
+    height:34vh;
+    display: grid;
+    grid-template-rows: 20vh 14vh;
+    grid-template-columns: 60% 40%;
+
+  }
+  .subscribe-img h1
+  {
+    text-align: left;
+    font: Bold 1.5em/2em Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    line-height: 1.5em;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:3;
+  }
+  .subscribe-img .enter-email
+  {
+    width: 64%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1em;
+    color: blue;
+    padding-top: 1%;
+    height: fit-content;
+    margin-top: 2rem;
+    padding: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 2rem;
+  }
+  .subscribe-img .button
+  {
+    width: fit-content;
+    margin-top: 2rem;
+  background-color: #354463;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end:3;
+
+  }
+  #story-read-more
+  {
+    margin-left: 1rem;
+  }
+  #story-read-more .button
+  {
+    width:50%;
+  }
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .story p
+  {
+      font-size: 1rem;
+      padding-left: 2rem;
+  }
+  .story-img
+  {
+    flex-direction: column-reverse;
+  }
+  .story-img .story
+  {
+    margin-top: 2rem;
+    width:80%;
+  }
+  .story-img img
+  {
+    width: 83%;
+  }
+  .climate-change-hunger-issue
+  {
+    width: 37%;
+  }
+  .facts
+  {
+      position:relative;
+      width: 85%;
+  }
+
+  .button
+  {
+    width:70%;
+  }
+  .heading
+  {
+    flex-direction: column;
+  }
+  .heading-nav
+  {
+    width: 100%;
+  }
+  .heading-nav ul
+  {
+    flex-direction: column;
+  }
+  .heading-nav p
+  {
+    padding-top: 3rem;
+    width:43%;
+  }
+  .heading-nav ul li
+  {
+    margin-bottom: 1rem;
+  }
+  .climate-change
+  {
+    width: auto;
+    margin-top: 2rem;
+  }
+  .main-section .container
+  {
+    flex-direction: column-reverse;
+  }
+  .issue-box
+  {
+    left: 36%;
+  }
+  .nav-links ul
+  {
+    flex-wrap: wrap;
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;*/
+
+  }
+  .nav-links ul li
+  {
+    width: 50%;
+  }
+  .our-works
+  {
+    flex-direction: column;
+  }
+  .mission-section-images
+  {
+    margin-top: 0;
+  }
+  .action-img .container
+  {
+    padding-top: 1rem;
+
+  }
+  .event
+  {
+    position: absolute;
+  left: 7rem;
+  top: -28vh;
+  color: #354463;
+  width: fit-content;
+  font-size: 1rem;
+  background: white;
+  padding: 0.3rem;
+  }
+  .action-img
+  {
+    background-color: #354463;
+    color: white;
+  }
+  .action-img h2
+  {
+     width:100%;
+       font-size: 1rem;
+       padding-left: 5rem;
+  }
+  .action-img p
+  {
+    margin-top: 3rem;
+  width: 100%;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  font-size: 0.2rem;
+  }
+  .action-img img
+  {
+    padding-left: 4rem;
+    width:50%;
+    height:25vh;
+  }
+  .earth-day
+  {
+    margin-top: 3rem;
+    width:100%;
+    height:50vh;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+   .updates-from
+   {
+margin-top: 10rem;
+  width:100%;
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 12rem;
+   }
+   .action-img .button
+   {
+     position: relative;
+     margin-left: 5rem;
+   }
+   .action-img aside
+   {
+     width: 50%;
+     position: relative;
+   }
+
+}

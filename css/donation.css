@@ -1,0 +1,791 @@
+@media all and (min-width: 801px)
+{
+  body
+  {
+    width:100%;
+    height:214.125%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 7% 71.45% auto;
+
+  }
+.heading
+{
+
+  width:100%;
+  position: relative;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+font: Bold 2em/1em Helvetica;
+letter-spacing: 0;
+color: #354463;
+opacity: 1;
+}
+.main
+{
+  background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+  background-repeat: no-repeat;
+background-size: 100% 100%;
+  width:100%;
+  position: relative;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+form a
+{
+  padding-left: 5%;
+  color: #C1F7D5;
+}
+.submit
+{/*
+  background-color: #C1F7D5;
+  border-radius: 100px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 100%;
+  height: auto;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;*/
+  background-color: #C1F7D5;
+border-radius: 100px;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+opacity: 100%;
+height: auto;
+font-size: 16px;
+cursor: pointer;
+position: absolute;
+right: 42%;
+bottom: 2%;
+}
+.form-box
+{
+      width: 50%;
+      height: fit-content;
+      position: absolute;
+      left: 9%;
+      top: 7%;
+      background-color: #354463;
+}
+.form-box h1
+{
+  font: Bold 2em Helvetica;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      padding-left: 4%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+}
+.form-box div
+{
+  display :inline-block;
+}
+form #first-name, form #zip-code
+{
+  padding-left: 5%;
+}
+form #last-name
+{
+  padding-left: 15%;
+}
+#city,#street-address,#email-address,#credit-card-number,#expiration,#code
+{
+ padding-left:5%;
+ padding-top: 5%;
+
+}
+
+form #state
+{ padding-left:15%;
+  width:1%;
+}
+#street-address input, #email-address input, #credit-card-number input
+{
+  width: 442px;
+}
+#state input
+{
+  width:65px;
+}
+input[name="expiration-year"]
+{
+  margin-left: 34px;
+}
+#zip-code input,#expiration input
+{
+  width:100px;
+}
+form label
+{
+  font: Regular 2em Helvetica;
+letter-spacing: 0.56px;
+color: #FFFFFF;
+opacity: 1;
+}
+form input, form select
+{
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  border-bttom:5px;
+  background: transparent;
+  color: #FFFFFF;
+opacity: 0.2;
+}
+form select
+{
+  background-color: #354463;
+}
+form #zip-code
+{
+  padding-left: 8%;
+}
+form value
+{
+  font:5em;
+  color: #FFFFFF;
+opacity: 0.2;
+}
+
+.give-hope
+{
+  position: absolute;
+  top: 15%;
+  right: 6%;
+  width: 20%;
+  font-size: 4em;
+  color: white;
+  font-style: oblique;
+}
+.footer
+{
+
+  width:100%;
+  position: relative;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.footer .footer-img-p
+{
+  font-size: 1.8em;
+width: 83.1%;
+height: auto;
+left: 4.1%;
+top: 27%;
+position: absolute;
+font-family: Helvetica;
+color: #354463;
+
+}
+.footer .stop-climate-c
+{
+font-style: italic ;
+  position: absolute;
+  width: 25%;
+  height: 55%;
+  top: 24%;
+  right: 0;
+  color:#354463;
+  font-size: 3em;
+}
+/*password*/
+.contact-links-follow
+{
+  position: absolute;
+  top: 23%;
+  left: 29%;
+  width: 42%;
+  height: 57%;
+
+
+}
+.contact-links-follow .contact-us
+{
+  width: 30%;
+  height:80%;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.contact-links-follow .footer-link
+{
+  width: 30%;
+  height:80%;
+  position: absolute;
+  left: 35%;
+  top:0;
+
+}
+.contact-links-follow .follow
+{
+  width: 30%;
+  height:80%;
+  position: absolute;
+  left: 70%;
+  top:0;
+
+}
+hr
+{
+  position: absolute;
+color: black;
+width: 100%;
+top: 39%;
+}
+.contact-links-follow h1
+{
+  border-bottom: 1px solid;
+  font-size:1.5em;
+  color: #354463;
+}
+.contact-links-follow p
+{
+  font-size: 0.9em;
+position: absolute;
+top: 47%;
+color:#354463;
+}
+}
+@media all and (min-width: 481px) and (max-width: 548px)
+{
+  form #last-name
+  {
+    padding-left: 5%;
+  }
+}
+@media all and (min-width: 800px) and (max-width: 914px)
+{
+  form #last-name
+  {
+    padding-left: 4%;
+  }
+  form #zip-code
+  {
+    padding-left: 8%;
+  }
+  form #state
+  { padding-left:5%;
+    width:1%;
+  }
+  #street-address input, #email-address input, #credit-card-number input
+  {
+    width: 379px;
+  }
+
+}
+
+@media all and (min-width: 481px) and (max-width: 800px)
+{
+  body
+  {
+    width:100%;
+    height:fit-content;
+    /*
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 6.10% 70.62% auto;
+    */
+  }
+  .heading
+  {
+    width:100%;
+    height:fit-content;
+    position: relative;
+    /*grid-row-start: 1;
+
+    grid-row-end: 2;
+    */text-align: center;
+  font: Bold 1.5em/1em Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  }
+  .main
+  {
+    background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height:fit-content;
+    /*
+    position: relative;
+    grid-row-start: 2;
+    grid-row-end: 3;*/
+  }
+  .give-hope
+  {
+    padding-left: 2em;
+  width: 75%;
+  height: fit-content;
+  font-size: 3em;
+  color: white;
+  font-style: oblique;
+  padding-top: 1em;
+  }
+  form a
+  {
+    padding-left: 5%;
+    color: #C1F7D5;
+  }
+  .submit
+  {
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 100%;
+    height: auto;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .form-box
+  {
+        width: 83%;
+        height: fit-content;
+        /*position: absolute;
+        left: 9%;
+        top: 16%;
+        */
+        margin-left: 3em;
+        margin-bottom: 3em;
+        background-color: #354463;
+  }
+  .form-box h1
+  {
+        font: Bold 2em Helvetica;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-left: 4%;
+        padding-top: 2%;
+  }
+  .form-box div
+  {
+    display :inline-block;
+  }
+  form #first-name, form #zip-code
+  {
+    padding-left: 5%;
+  }
+  form #last-name
+  {
+    padding-left: 1em;
+  }
+  #city,#street-address,#email-address,#credit-card-number,#expiration,#code
+  {
+   padding-left:5%;
+   padding-top: 5%;
+
+  }
+
+  form #state
+  { padding-left:15%;
+    width:1%;
+  }
+  #street-address input, #email-address input, #credit-card-number input
+  {
+    width: 442px;
+  }
+  #state input
+  {
+    width:65px;
+  }
+  input[name="expiration-year"]
+  {
+    margin-left: 34px;
+  }
+  #zip-code input,#expiration input
+  {
+    width:100px;
+  }
+  form label
+  {
+    font: Regular 2em Helvetica;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  form input, form select
+  {
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bttom:5px;
+    background: transparent;
+    color: #FFFFFF;
+  opacity: 0.2;
+  }
+  form select
+  {
+    background-color: #354463;
+  }
+  form #zip-code
+  {
+    padding-left: 8%;
+  }
+  form value
+  {
+    font:5em;
+    color: #FFFFFF;
+  opacity: 0.2;
+  }
+
+  .footer
+  {
+        width:100%;
+        height:300px;
+    position: relative;
+    /*
+    height: fit-content;
+    grid-row-start: 3;
+    grid-row-end: 4;*/
+  }
+  .footer  .footer-img-p
+  {
+    font-size: 1.5em;
+width: 83.1%;
+height: auto;
+left: 5.1%;
+top: 12%;
+position: absolute;
+font-family: Helvetica;
+color: #354463;
+
+  }
+  .footer .stop-climate-c
+  {
+    font-style: italic ;
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    bottom: 3%;
+    right: 0;
+    color:#354463;
+    font-size: 3em;
+  }
+  /*password*/
+  .contact-links-follow
+  {
+
+    position: absolute;
+top: 4%;
+left: 42%;
+width: 50%;
+height: 84%;
+
+  }
+  .contact-links-follow .contact-us
+  {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .contact-links-follow .footer-link
+  {
+
+ width: 45%;
+ height: 50%;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+
+
+  }
+  .contact-links-follow .follow
+  {
+
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   }
+
+  hr
+  {
+    color: white;
+  }
+  .contact-links-follow h1
+  {
+    font-size:1.5em;
+    color: #354463;
+  }
+  .contact-links-follow p
+  {
+    font-size: 0.9em;
+position: absolute;
+top: 47%;
+color:#354463;
+  }
+
+
+}
+@media all and (max-width: 480px)
+{
+  body
+  {
+    width:100%;
+    height:fit-content;
+    /*
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 4.80% 59.19% auto;
+    */
+  }
+  .heading
+  {
+    width:100%;
+    /*position: relative;
+    grid-row-start: 1;
+    grid-row-end: 2;*/
+    text-align: center;
+  font: Bold 1.5em/1em Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  opacity: 1;
+  }
+  .main
+  {
+    background-image: url("../assets/donation/annie-spratt-427340-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;/*
+    position: relative;
+    grid-row-start: 2;
+    grid-row-end: 3;*/
+  }
+  .give-hope
+  {
+    padding-left: 1em;
+  width: 75%;
+  height: fit-content;
+  font-size: 1.5em;
+  color: white;
+  font-style: oblique;
+  padding-top: 1em;
+  }
+  form a
+  {
+    padding-left: 5%;
+    color: #C1F7D5;
+  }
+  .submit
+  {
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 100%;
+    height: auto;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .form-box
+  {
+        width: 83%;
+        height: fit-content;
+        /*position: absolute;
+        left: 9%;
+        top: 16%;
+        */
+        margin-left: 2em;
+
+
+        background-color: #354463;
+  }
+  .form-box h1
+  {
+    font: Bold 2em Helvetica;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-left: 4%;
+        padding-top: 2%;
+  }
+  .form-box div
+  {
+    display :inline-block;
+  }
+  form #first-name, form #zip-code
+  {
+    padding-left: 5%;
+  }
+  form #last-name
+  {
+    padding-left: 15%;
+  }
+  #city,#street-address,#email-address,#credit-card-number,#expiration,#code
+  {
+   padding-left:5%;
+   padding-top: 5%;
+
+  }
+
+  form #state
+  { padding-left:15%;
+    width:1%;
+  }
+  #street-address input, #email-address input, #credit-card-number input
+  {
+    width: 253px;
+  }
+  #state input
+  {
+    width:65px;
+  }
+  input[name="expiration-year"]
+  {
+    margin-left: 34px;
+  }
+  #zip-code input,#expiration input
+  {
+    width:100px;
+  }
+  form label
+  {
+  /*  font: Regular 2em Helvetica;*/
+  font-size: 0.6em;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  form input, form select
+  {
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bttom:5px;
+    background: transparent;
+    color: #FFFFFF;
+  opacity: 0.2;
+  font-size: 0.5em;
+  width:9.8em;
+  }
+  form select
+  {
+    background-color: #354463;
+  }
+  form #zip-code
+  {
+    padding-left: 8%;
+  }
+  form value
+  {
+    font:5em;
+    color: #FFFFFF;
+  opacity: 0.2;
+  }
+
+  .footer
+  {
+
+    width:100%;
+    height:538px;
+    position: relative;
+    /*
+    grid-row-start: 3;
+    grid-row-end: 4;*/
+  }
+
+/*footer-img section for mobile*/
+
+.footer  .footer-img-p
+{
+  font-size: 1.5em;
+width: 34.1%;
+height: auto;
+left: 5.1%;
+top: 12%;
+position: absolute;
+font-family: Helvetica;
+color: #354463;
+
+}
+
+.footer .stop-climate-c
+{
+  font-style: italic;
+  position: absolute;
+  width: 18%;
+  height: 25%;
+  bottom: 4%;
+  left: 53%;
+  color: #354463;
+  font-size: 3em;
+
+}
+/*password*/
+
+.contact-links-follow
+{
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+}
+.contact-links-follow .contact-us
+{
+  width: 50%;
+height: 16%;
+position: absolute;
+right: 0%;
+top: 10%;
+font-size: 1em;
+}
+.contact-links-follow .footer-link
+{
+
+  width: 50%;
+  height: 19%;
+  position: absolute;
+  right: 0%;
+  bottom: 49%;
+
+}
+.contact-links-follow .follow
+{
+
+  width: 45%;
+  height: 18%;
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  font-size: 1em;
+ }
+
+hr
+{
+  color: white;
+}
+.contact-links-follow h1
+{
+  font-size:1.5em;
+  color: #354463;
+}
+.contact-links-follow p
+{
+  font-size: 1em;
+position: absolute;
+top: 47%;
+color:#354463;
+}
+}
